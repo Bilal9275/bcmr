@@ -1,0 +1,38 @@
+{
+  "schema": "https://cashtokens.org/bcmr-v2.schema.json",
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  },
+  "latestRevision": "2026-01-30T00:00:00.000Z",
+  "registryIdentity": {
+    "name": "NFT Collection Registry",
+    "description": "Metadata registry for time-windowed NFT collection"
+  },
+  "identities": {
+    "YOUR_CATEGORY_ID_HERE": {
+      "2026-01-30T00:00:00.000Z": {
+        "name": "Time Window NFT",
+        "description": "Unique NFT from time-windowed minting contract with sequential commitment IDs",
+        "token": {
+          "category": "YOUR_CATEGORY_ID_HERE",
+          "symbol": "TWNFT",
+          "decimals": 0
+        },
+        "uris": {
+          "icon": "https://your-domain.com/images/icon.png",
+          "web": "https://your-domain.com",
+          "image": "https://your-domain.com/images/nft-{commitment}.png",
+          "registry": "https://your-domain.com/metadata/token-metadata.json"
+        },
+        "extensions": {
+          "contact": {
+            "email": "your-email@example.com",
+            "discord": "your-discord-server"
+          }
+        }
+      }
+    }
+  }
+}

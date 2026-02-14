@@ -7,12 +7,12 @@
     "description": "Registry for the 7th test event for eventcollect.cash"
   },
   "identities": {
-    "27ed3408e210ae3043da58855e751355fb8c31e0a6cf6b8410418344bacceb7b": {
+    "178fb7359ebffd7f5caa8e2c51f40d5e8880190d2a412a1f150d49bbe4c41236": {
       "2025-11-21T04:54:19Z": {
         "name": "Eventcollect - Test Event 7",
         "description": "This NFT represents a minting set to test eventcollect NFT minting for the BCH Blaze hackathon of 2025",
         "token": {
-          "category": "27ed3408e210ae3043da58855e751355fb8c31e0a6cf6b8410418344bacceb7b",
+          "category": "178fb7359ebffd7f5caa8e2c51f40d5e8880190d2a412a1f150d49bbe4c41236",
           "symbol": "EVENT-TST7"
         },
         "uris": {

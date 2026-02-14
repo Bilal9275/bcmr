@@ -1,38 +1,27 @@
 {
   "schema": "https://cashtokens.org/bcmr-v2.schema.json",
-  "version": {
-    "major": 2,
-    "minor": 0,
-    "patch": 0
-  },
-  "latestRevision": "2026-01-30T00:00:00.000Z",
+  "version": { "major": 1, "minor": 0, "patch": 0 },
+  "latestRevision": "2025-11-21T04:54:19Z",
   "registryIdentity": {
-    "name": "NFT Collection Registry",
-    "description": "Metadata registry for time-windowed NFT collection"
+    "name": "eventcollect.cash test Registry",
+    "description": "Registry for the 7th test event for eventcollect.cash"
   },
   "identities": {
-    "YOUR_CATEGORY_ID_HERE": {
-      "2026-01-30T00:00:00.000Z": {
-        "name": "Time Window NFT",
-        "description": "Unique NFT from time-windowed minting contract with sequential commitment IDs",
+    "27ed3408e210ae3043da58855e751355fb8c31e0a6cf6b8410418344bacceb7b": {
+      "2025-11-21T04:54:19Z": {
+        "name": "Eventcollect - Test Event 7",
+        "description": "This NFT represents a minting set to test eventcollect NFT minting for the BCH Blaze hackathon of 2025",
         "token": {
-          "category": "YOUR_CATEGORY_ID_HERE",
-          "symbol": "TWNFT",
-          "decimals": 0
+          "category": "27ed3408e210ae3043da58855e751355fb8c31e0a6cf6b8410418344bacceb7b",
+          "symbol": "EVENT-TST7"
         },
         "uris": {
-          "icon": "https://your-domain.com/images/icon.png",
-          "web": "https://your-domain.com",
-          "image": "https://your-domain.com/images/nft-{commitment}.png",
-          "registry": "https://your-domain.com/metadata/token-metadata.json"
-        },
-        "extensions": {
-          "contact": {
-            "email": "your-email@example.com",
-            "discord": "your-discord-server"
-          }
+          "image": "https://gitlab.com/PJMan7/bch-hackathon-gitlab/-/raw/main/public/bchhackathonbuidlicon.png",
+          "icon": "https://gitlab.com/PJMan7/bch-hackathon-gitlab/-/raw/main/public/bchhackathonbuidliconsm.png",
+          "web": "https://github.com/PJMan7/bch-hackathon-pjman7"
         }
       }
     }
-  }
+  },
+  "license": "CC0-1.0"
 }
